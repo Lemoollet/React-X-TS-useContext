@@ -1,9 +1,17 @@
 import Todo from './todo/Todo';
-import './App.css';
 
 function App() {
   return (
-    <div className='App App-header'>
+    <div
+      style={{
+        background: '#282c34',
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: ' center',
+        color: 'white',
+      }}
+    >
       <Todo />
     </div>
   );

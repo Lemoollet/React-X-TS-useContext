@@ -1,6 +1,6 @@
 import { useReducer } from 'react';
 import { TodoContext } from './TodoContext';
-import { TodoState } from '../interfaces/interface';
+import { TodoState } from '../interfaces/interfaces';
 import { todoReducer } from './todoReducer';
 
 interface TodoContextProps {

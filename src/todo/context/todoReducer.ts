@@ -1,4 +1,4 @@
-import { TodoState, Todo } from '../interfaces/interface';
+import { TodoState, Todo } from '../interfaces/interfaces';
 
 type todoAction =
   | { type: ' addTodo'; payload: Todo }

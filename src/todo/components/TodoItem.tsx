@@ -1,4 +1,4 @@
-import { Todo } from '../interfaces/interface';
+import { Todo } from '../interfaces/interfaces';
 import { TodoContext } from '../context/TodoContext';
 import { useContext } from 'react';
 //import { useTodos } from '../hooks/useTodos';

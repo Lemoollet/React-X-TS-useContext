@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { TodoState } from '../interfaces/interface';
+import { TodoState } from '../interfaces/interfaces';
 
 export type TodoContextProps = {
   todoState: TodoState;
